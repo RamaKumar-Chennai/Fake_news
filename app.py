@@ -28,11 +28,6 @@ Analyze news articles in real-time using AI-powered detection to identify potent
 headline = st.text_input("Headline (Optional)", placeholder="Enter the news headline...")
 news_text = st.text_area("News Text *", placeholder="Paste or type the news article text here...")
 
-# Clear button to reset inputs
-if st.button("Clear"):
-    headline = ""
-    news_text = ""
-    st.rerun()
 
 # Analyze button
 if st.button("Analyze"):
