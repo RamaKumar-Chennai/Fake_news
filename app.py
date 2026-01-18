@@ -3,7 +3,8 @@ from transformers import DistilBertTokenizerFast, DistilBertForSequenceClassific
 import torch
 
 # Path to your fine‑tuned model folder (with model.safetensors or pytorch_model.bin)
-model_path = r"D:\VS_CODE\Fake_news\distilbert_model"
+model_path = model_path = "RamaAI/fake-news-distilbert"
+
 
 
 # Load tokenizer and model safely
